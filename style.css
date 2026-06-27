@@ -12,8 +12,8 @@
     background-color: #222;
 }
 
-.logo {
-    color:#ddd;
+.logo img {
+    height: 40px;
 }
 
 .nav-links {
@@ -43,6 +43,10 @@
         gap: 30px;
     }
 
+    .logo img {
+        height: 60px;
+    }
+    
     .nav-links  {
         flex-direction: column;
         align-items: center;
